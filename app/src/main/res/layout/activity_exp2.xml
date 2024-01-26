@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ExpActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_exp2"
+        android:layout_width="match_parent"
+        android:layout_height="661dp" />
+
+    <LinearLayout
+        android:id="@+id/bottom_navigation_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:background="#4DED0000">
+
+        <ImageButton
+            android:id="@+id/home_exp2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:backgroundTint="@color/white"
+
+            android:contentDescription="@string/image"
+            android:src="@drawable/baseline_home_24" />
+
+        <ImageButton
+            android:id="@+id/recharge_exp2"
+            android:layout_width="50dp"
+            android:backgroundTint="@color/white"
+
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/baseline_attach_money_24" />
+
+        <ImageButton
+            android:id="@+id/list_exp2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+
+            android:src="@drawable/list_drawable" />
+
+        <ImageButton
+            android:id="@+id/profile_exp2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/baseline_person_24" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".EntryActivity">
+
+    <ImageView
+
+        android:id="@+id/logo_view_splash1"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-10dp"
+        android:foregroundGravity="clip_horizontal"
+        app:srcCompat="@drawable/app_logo" />
+
+    <ImageView
+        android:id="@+id/splash_undraw_1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-20dp"
+        android:layout_below="@id/logo_view_splash1"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="clip_horizontal"
+        android:src="@drawable/splash_undraw" />
+
+    <TextView
+        android:id="@+id/text1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_below="@id/splash_undraw_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/text1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/text2" />
+    <TextView
+        android:id="@+id/text3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2_1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/text3" />
+
+    <TextView
+        android:id="@+id/text4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3_1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/text4" />
+    <TextView
+        android:id="@+id/text5_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4_1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/text5" />
+
+    <Button
+        android:background="#CD0000"
+        android:layout_width="343dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn1_1"
+        android:textSize="18sp"
+        android:text="Get Started"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        />
+
+</RelativeLayout>
