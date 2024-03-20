@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TransactionsFragment"
+    tools:context=".fragments.TransactionsFragment"
     android:background="#FFFFFF"
     >
 
+    <TextView
+        android:id="@+id/arrow_transactions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@id/textView"
+        android:text="@string/arrow"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView"
@@ -19,16 +35,21 @@
         android:textSize="24sp"
         android:textColor="#000000"
         />
+    <FrameLayout
+        android:id="@+id/frame_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView"
+        >
 
-<ImageView
-    android:layout_below="@id/textView"
-    android:layout_marginStart="0dp"
-    android:layout_marginTop="0dp"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_transactions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_transaction"
+            />
 
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/pic1"
-    android:src="@drawable/isthara"
+    </FrameLayout>
 
-    />
 </RelativeLayout>
+</ScrollView>

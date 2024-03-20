@@ -3,9 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RechargeFragment">
+    tools:context=".fragments.RechargeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/arrow_recharge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_toLeftOf="@id/rech_header"
+        android:layout_marginTop="30dp"
+        android:text="&#x2190;"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/rech_header"
@@ -22,34 +31,33 @@
         android:id="@+id/recharge_amount"
         android:layout_width="340dp"
         android:layout_height="50dp"
-        android:background="@drawable/rectangle"
-        android:hint="@string/enter_the_amount_2"
         android:layout_below="@id/rech_header"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle"
+        android:hint="@string/enter_the_amount_2"
         android:paddingStart="35dp"
-        android:paddingEnd="20dp"
-        />
+        android:paddingEnd="20dp" />
+
     <EditText
         android:id="@+id/recharge_amount2"
         android:layout_width="340dp"
         android:layout_height="50dp"
+        android:layout_below="@id/recharge_amount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
         android:background="@drawable/rectangle"
         android:hint="@string/enter_the_amount"
-        android:layout_below="@id/recharge_amount"
-       android:layout_centerHorizontal="true"
-       android:layout_marginTop="30dp"
         android:paddingStart="35dp"
-        android:paddingEnd="20dp"
-        />
+        android:paddingEnd="20dp" />
+
     <Button
         android:id="@+id/rechargebtn"
         android:layout_width="340dp"
         android:layout_height="50dp"
-        android:background="@drawable/rectangle2"
-        android:text="Enter the amount"
         android:layout_below="@id/recharge_amount2"
-        android:layout_marginTop="75dp"
         android:layout_centerHorizontal="true"
-        />
+        android:layout_marginTop="75dp"
+        android:background="@drawable/rectangle2"
+        android:text="Enter the amount" />
 </RelativeLayout>

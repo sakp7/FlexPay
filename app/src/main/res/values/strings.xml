@@ -35,7 +35,7 @@
     <string name="undrawlogo">undrawlogo</string>
     <string name="enter_your_email">Enter your email</string>
     <string name="enter_your_password">Enter your password</string>
-    <string name="text10">Don\'t have an account SignUp</string>
+    <string name="text10">Don\'t have an account ? SignUp</string>
     <string name="textsignup2">Let’s start flexing your payments</string>
     <string name="signupname">Enter your name</string>
     <string name="signup">Signup</string>
@@ -98,6 +98,11 @@
     <string name="image">image</string>
     <string name="title_activity_nfc">NfcActivity</string>
     <string name="latest_transactions">Latest Transactions</string>
+    <string name="hi_saketh">Hi, Saketh</string>
+    <string name="flex_pay">FLEX PAY</string>
+    <string name="total_balance">Total balance</string>
+    <string name="vouchers">Vouchers</string>
+    <string name="arrow">←</string>
 
 
 </resources>

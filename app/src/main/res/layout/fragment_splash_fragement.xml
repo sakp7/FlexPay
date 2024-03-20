@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    tools:context=".EntryActivity">
+    android:background="#F2F3F7"
+    tools:context=".activity.EntryActivity">
 
     <ImageView
 
@@ -26,7 +26,7 @@
         android:layout_below="@id/logo_view_splash1"
         android:layout_centerHorizontal="true"
         android:foregroundGravity="clip_horizontal"
-        android:src="@drawable/splash_undraw" />
+        android:src="@drawable/onboarding_1" />
 
     <TextView
         android:id="@+id/text1_1"
@@ -77,7 +77,7 @@
         android:text="@string/text5" />
 
     <Button
-        android:background="#CD0000"
+        android:background="#4E598C"
         android:layout_width="343dp"
         android:layout_height="60dp"
         android:id="@+id/btn1_1"

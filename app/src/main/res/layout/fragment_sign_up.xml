@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginFragment">
+    android:background="#F2F3F7"
+
+    tools:context=".fragments.LoginFragment">
 
     <ImageView
         android:id="@+id/logo_login"
@@ -44,39 +46,45 @@
         android:layout_marginTop="25dp"
         android:autofillHints="emailAddress"
         android:background="@drawable/rectangle"
-        android:gravity="center"
         android:hint="@string/signupname"
-        android:inputType="text" />
+
+        android:inputType="text"
+        android:paddingStart="@dimen/_19sdp"
+        android:textColor="#000000" />
 
     <EditText
-
         android:id="@+id/etxtroll"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+
         android:layout_below="@id/etxtsignup"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:autofillHints="emailAddress"
         android:background="@drawable/rectangle"
-        android:gravity="center"
         android:hint="@string/enter_roll_number"
-        android:inputType="text" />
+        android:inputType="text"
+        android:paddingStart="@dimen/_19sdp" />
 
     <EditText
         android:id="@+id/signup_email"
         android:layout_width="350dp"
+
         android:layout_height="wrap_content"
         android:layout_below="@id/etxtroll"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:autofillHints="emailAddress"
         android:background="@drawable/rectangle"
-        android:gravity="center"
         android:hint="@string/enter_your_email"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:paddingStart="@dimen/_19sdp"
+
+        />
 
     <EditText
         android:id="@+id/signpass_1"
+
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/signup_email"
@@ -84,22 +92,24 @@
         android:layout_marginTop="30dp"
         android:autofillHints="emailAddress"
         android:background="@drawable/rectangle"
-        android:gravity="center"
         android:hint="@string/enter_your_password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+
+        android:paddingStart="@dimen/_19sdp" />
 
     <EditText
         android:id="@+id/signpass_2"
         android:layout_width="350dp"
+
         android:layout_height="wrap_content"
         android:layout_below="@id/signpass_1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:autofillHints="emailAddress"
         android:background="@drawable/rectangle"
-        android:gravity="center"
         android:hint="@string/confirm_your_password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:paddingStart="@dimen/_19sdp" />
 
     <Button
         android:id="@+id/btnsignup"
@@ -109,7 +119,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:background="@drawable/rectangle2"
-        android:text="@string/signup" />
+        android:text="@string/signup"
+        android:textColor="@color/white" />
 
 
 </RelativeLayout>
