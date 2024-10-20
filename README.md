@@ -12,5 +12,5 @@ Streamlined Contactless Payment Solution for College Canteen Developed a compreh
 Skills: Android Development · Kotlin · Radio-Frequency Identification (RFID) · XML · Firebase
 
 
-![Project Logo](img1.png)
+![Project Logo](img1)
 
