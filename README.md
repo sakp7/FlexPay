@@ -1,6 +1,5 @@
 
-Flex Pay
-Flex Pay
+
 Streamlined Contactless Payment Solution for College Canteen
 
 Developed a comprehensive contactless payment solution featuring three interconnected applications, all powered by Firebase Cloud for seamless and hassle-free operation:
