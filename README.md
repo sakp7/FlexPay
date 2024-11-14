@@ -1,4 +1,6 @@
+### Flex Pay
 
+This project is based on both hardware and software.
 
 Streamlined Contactless Payment Solution for College Canteen
 
