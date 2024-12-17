@@ -2,7 +2,7 @@
 
 This project is based on both hardware and software.
 
-Streamlined Contactless Payment Solution for College Canteen
+Streamlined Contactless Payment Solution for Colleges
 
 Developed a comprehensive contactless payment solution featuring three interconnected applications, all powered by Firebase Cloud for seamless and hassle-free operation:
 
