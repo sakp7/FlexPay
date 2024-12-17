@@ -8,7 +8,7 @@ Developed a comprehensive contactless payment solution featuring three interconn
 
 Student App: Enables students to effortlessly view transaction history, recharge their wallets, and block their ID cards, ensuring a user-friendly experience.
 
-Admin App: Provides college administrators with real-time monitoring of transactions, facilitating efficient management and oversight of the payment system. \n
+Admin App: Provides college administrators with real-time monitoring of transactions, facilitating efficient management and oversight of the payment system. \n/n
 Display Kiosk App: Enhances the ordering process at the canteen, allowing users to place orders quickly and efficiently.\n
 This innovative system prioritizes convenience and reliability, optimizing the payment experience for students and faculty while minimizing waiting times and enhancing overall efficiency.\n
 
